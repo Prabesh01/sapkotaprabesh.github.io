@@ -1,0 +1,22 @@
+<script type="text/javascript" src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
+
+<style>
+    .player {
+        background-color: #000;
+        display: inline-block;
+    }
+</style>
+
+<body>
+    <div id="vplayer" class="player"></div>
+
+    <script>
+        var urlsrc = "https://ktvhdnpicc6670.ekantipur.com/ktv_abr/hd/kantipurtv/hd_1080/playlist.m3u8";
+        var player = new Clappr.Player({
+            source: urlsrc,
+            parentId: "#vplayer",
+            height: 440,
+            width: 800
+        });
+        //# sourceURL=pen.js
+    </script>
